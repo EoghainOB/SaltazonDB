@@ -39,7 +39,7 @@ let db = new sqlite3.Database(DBSOURCE, (err) => {
         db.run(`create table StoreData (
                 id VARCHAR(2),
                 name VARCHAR(50),
-                adminId INT
+                uniqueStoreId INT
               )`,
             (err) => {
                 if (err) {
@@ -47,9 +47,9 @@ let db = new sqlite3.Database(DBSOURCE, (err) => {
                     console.log('Already Store-table there');
                 } else {
                     // Table just created, creating some rows
-                    const insert = 'INSERT INTO StoreData (id, name, adminId) VALUES (?,?,?)';
+                    const insert = 'INSERT INTO StoreData (id, name, uniqueStoreId) VALUES (?,?,?)';
                     stores.map(newStore => {
-                        db.run(insert, [newStore.id, newStore.name, newStore.adminId]);
+                        db.run(insert, [newStore.id, newStore.name, newStore.uniqueStoreId]);
                     })
                     console.log(`${stores.length} Stores created`);
                 }
@@ -59,11 +59,11 @@ let db = new sqlite3.Database(DBSOURCE, (err) => {
                     id INT, 
                     title VARCHAR(50), 
                     description TEXT, 
-                    imageUrl VARCHAR(50), 
+                    imageUrl VARCHAR(50),
+                    storeId INT, 
                     price VARCHAR(50), 
                     quantity INT, 
-                    category VARCHAR(50), 
-                    storeId INT);`,
+                    category VARCHAR(50));`,
             (err) => {
                 if (err) {
                     // Table already created
@@ -72,7 +72,7 @@ let db = new sqlite3.Database(DBSOURCE, (err) => {
                     // Table just created, creating some rows
                     const insert = 'INSERT INTO ProductData (id, title, description, imageUrl, storeId, price, quantity, category) VALUES (?,?,?,?,?,?,?,?)';
                     products.map(product => {
-                        db.run(insert, [product.id, product.title, product.description, product.imageUrl, product.price, product.quantity, product.category, product.storeId]);
+                        db.run(insert, [product.id, product.title, product.description, product.imageUrl, product.storeId, product.price, product.quantity, product.category]);
                     })
                     console.log(`${products.length} Products created`);
                 }
@@ -81,15 +81,15 @@ let db = new sqlite3.Database(DBSOURCE, (err) => {
 });
 
 function GetUsersAsJson() {
-    return JSON.parse(fs.readFileSync("./UserJson/User_Mock_data.json"));
+    return JSON.parse(fs.readFileSync("./mockData/User_Mock_data.json"));
 }
 
 function GetStoresAsJson() {
-    return JSON.parse(fs.readFileSync("./UserJson/Store_Mock_data.json"));
+    return JSON.parse(fs.readFileSync("./mockData/Store_Mock_data.json"));
 }
 
 function GetProductsAsJson() {
-    return JSON.parse(fs.readFileSync("./UserJson/Products_Mock_data.json"));
+    return JSON.parse(fs.readFileSync("./mockData/Products_Mock_data.json"));
 }
 
 export default db;

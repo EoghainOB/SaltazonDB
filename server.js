@@ -103,7 +103,7 @@ app.delete("/api/user/:id", (req, res, next) => {
 
 //Post a new user endpoint
 app.post("/api/user/", (req, res, next) => {
-    const errors=[]
+    const errors=[];
     if (!req.body.password){
         errors.push("No password specified");
     }
@@ -166,6 +166,7 @@ app.get("/api/product/:id", (req, res, next) => {
     });
 });
 
+//get specific store by id
 app.get("/api/store/:id", (req, res, next) => {
     const sql = "select * from StoreData where id = ?";
     const params = [req.params.id];
@@ -181,6 +182,7 @@ app.get("/api/store/:id", (req, res, next) => {
     });
 });
 
+//get all stores by id
 app.get("/api/store", (req, res, next) => {
     const sql = "select * from StoreData";
     const params = [];

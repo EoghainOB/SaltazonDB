@@ -1,0 +1,152 @@
+[
+  {
+    "id": 3,
+    "name": "Hansen and Sons",
+    "uniqueStoreId": 1
+  },
+  {
+    "id": 7,
+    "name": "Littel, Walter and Bartoletti",
+    "uniqueStoreId": 2
+  },
+  {
+    "id": 2,
+    "name": "Kassulke-Cole",
+    "uniqueStoreId": 3
+  },
+  {
+    "id": 5,
+    "name": "Steuber LLC",
+    "uniqueStoreId": 4
+  },
+  {
+    "id": 10,
+    "name": "Collier, Kassulke and Schinner",
+    "uniqueStoreId": 5
+  },
+  {
+    "id": 5,
+    "name": "Smith Group",
+    "uniqueStoreId": 6
+  },
+  {
+    "id": 9,
+    "name": "Rolfson, Pollich and McDermott",
+    "uniqueStoreId": 7
+  },
+  {
+    "id": 7,
+    "name": "Metz, Schaden and Bashirian",
+    "uniqueStoreId": 8
+  },
+  {
+    "id": 8,
+    "name": "Yundt-Russel",
+    "uniqueStoreId": 9
+  },
+  {
+    "id": 5,
+    "name": "Rice-Kovacek",
+    "uniqueStoreId": 10
+  },
+  {
+    "id": 5,
+    "name": "Murazik, Cummings and Kuhic",
+    "uniqueStoreId": 11
+  },
+  {
+    "id": 5,
+    "name": "Kunze and Sons",
+    "uniqueStoreId": 12
+  },
+  {
+    "id": 10,
+    "name": "Miller-Ullrich",
+    "uniqueStoreId": 13
+  },
+  {
+    "id": 5,
+    "name": "Boehm Inc",
+    "uniqueStoreId": 14
+  },
+  {
+    "id": 10,
+    "name": "Thiel Inc",
+    "uniqueStoreId": 15
+  },
+  {
+    "id": 6,
+    "name": "Kunde-Farrell",
+    "uniqueStoreId": 16
+  },
+  {
+    "id": 2,
+    "name": "Swaniawski-Heathcote",
+    "uniqueStoreId": 17
+  },
+  {
+    "id": 7,
+    "name": "Baumbach, West and Boyer",
+    "uniqueStoreId": 18
+  },
+  {
+    "id": 5,
+    "name": "Jones LLC",
+    "uniqueStoreId": 19
+  },
+  {
+    "id": 7,
+    "name": "Pagac and Sons",
+    "uniqueStoreId": 20
+  },
+  {
+    "id": 5,
+    "name": "Feest LLC",
+    "uniqueStoreId": 21
+  },
+  {
+    "id": 1,
+    "name": "Kirlin, Tromp and Wuckert",
+    "uniqueStoreId": 22
+  },
+  {
+    "id": 3,
+    "name": "Huels, Stokes and Jakubowski",
+    "uniqueStoreId": 23
+  },
+  {
+    "id": 8,
+    "name": "Considine-Harvey",
+    "uniqueStoreId": 24
+  },
+  {
+    "id": 5,
+    "name": "Jakubowski-Cremin",
+    "uniqueStoreId": 25
+  },
+  {
+    "id": 4,
+    "name": "Schmitt-Renner",
+    "uniqueStoreId": 26
+  },
+  {
+    "id": 2,
+    "name": "Cruickshank, Spinka and Barrows",
+    "uniqueStoreId": 27
+  },
+  {
+    "id": 3,
+    "name": "Ullrich and Sons",
+    "uniqueStoreId": 28
+  },
+  {
+    "id": 5,
+    "name": "Johns-Bogan",
+    "uniqueStoreId": 29
+  },
+  {
+    "id": 1,
+    "name": "Koss-Heller",
+    "uniqueStoreId": 30
+  }
+]
