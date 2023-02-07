@@ -30,7 +30,7 @@ let db = new sqlite3.Database(DBSOURCE, (err) => {
                     // Table just created, creating some rows
                     const insert = 'INSERT INTO UserData (id, email, password, role, storeId) VALUES (?,?,?,?,?)';
                     users.map(newUser => {
-                        db.run(insert, [newUser.id, newUser.email, newUser.password, newUser.role, newUser.storeId]);
+                        db.run(insert, [newUser.id, newUser.email, newUser.password, newUser.role, newUser.uniqueStoreId]);
                     })
                     console.log(`${users.length} Users created`);
                 }
