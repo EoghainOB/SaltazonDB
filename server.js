@@ -67,7 +67,7 @@ app.patch("/api/user/:id", (req, res, next) => {
         storeId: req.body.storeId
     }
     db.run(
-        `UPDATE user set 
+        `UPDATE UserData set 
            email = COALESCE(?,email), 
            password = COALESCE(?,password)
            role = COALESCE(?,role)
@@ -119,7 +119,7 @@ app.post("/api/user/", (req, res, next) => {
         email: req.body.email,
         password : md5(req.body.password)
     }
-    const sql ='INSERT INTO user (name, email, password) VALUES (?,?,?)'
+    const sql ='INSERT INTO UserData (name, email, password) VALUES (?,?,?)'
     const params =[data.name, data.email, data.password]
     db.run(sql, params, function (err, result) {
         if (err){
