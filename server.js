@@ -1,37 +1,19 @@
 import express from "express";
 import cors from "cors";
-
 import db from "./database.js";
-
 import bodyParser from "body-parser";
-
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
+import dotenv from "dotenv";
+dotenv.config();
 
 const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-app.use(function (req, res, next) {
-  res.header("Access-Control-Allow-Credentials", true);
-  res.header("Access-Control-Allow-Origin", req.headers.origin);
-  res.header("Access-Control-Allow-Methods", "GET,PUT,POST,DELETE");
-  res.header(
-    "Access-Control-Allow-Headers",
-    "X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept"
-  );
-  if ("OPTIONS" == req.method) {
-    res.sendStatus(200);
-  } else {
-    next();
-  }
-});
+app.use(cors({ credentials: true, origin: "http://localhost:3000" }));
 
-app.use(cors());
-
-const HTTP_PORT = 8080;
-
-app.listen(HTTP_PORT, () => {
-  console.log("Server running on port %PORT%".replace("%PORT%", HTTP_PORT));
+app.listen(8080, () => {
+  console.log("Server running on port %PORT%".replace("%PORT%", 8080));
 });
 
 app.get("/", (req, res, next) => {
@@ -113,64 +95,106 @@ app.delete("/api/user/:id", (req, res, next) => {
   );
 });
 
-app.post("/user/login", (req, res) => {
-  const { email, password } = req.body;
-  if (!email || !password)
-    return res
-      .sendStatus(400)
-      .json({ message: "Username and password are required" });
-  let sql = `SELECT * FROM UserData WHERE email = "${email}" and password = "${password}"`;
-  const foundUser = db.all(sql, (err, result) => {
-    if (err) {
-      throw err;
-    }
-    return result;
-  });
-  console.log(foundUser);
-  if (!foundUser) return res.sendStatus(401);
-  const match = bcrypt.compare(password, foundUser.password);
-  if (foundUser) {
-    const accessToken = jwt.sign(
-      { username: foundUser.email },
-      process.env.ACCESS_TOKEN_SECRET,
-      { expiresIn: "30s" }
-    );
-    const refreshToken = jwt.sign(
-      { username: foundUser.email },
-      process.env.REFRESH_TOKEN_SECRET,
-      { expiresIn: "1d" }
-    );
-    res.cookie("jwt", refreshToken, {
-      httpOnly: true,
-      maxAge: 24 * 60 * 60 * 1000,
+app.post("/user/register", async (req, res) => {
+  try {
+    const hash = await bcrypt.hash(req.body.password, 10);
+    const data = {
+      id: req.body.id,
+      email: req.body.email,
+      password: hash,
+      role: req.body.role,
+    };
+    const sql =
+      "INSERT INTO UserData (id, email, password, role) VALUES (?,?,?,?)";
+    const params = [data.id, data.email, data.password, data.role];
+    await db.run(sql, params, (err, result) => {
+      if (err) {
+        res.sendStatus(400).json({ error: err.message });
+        return;
+      }
+      res.json(result);
     });
-    res.json({ accessToken });
-  } else {
-    res.sendStatus.status(401);
+  } catch (err) {
+    res.sendStatus(400).json({ error: err.message });
   }
 });
 
-app.post("/user/register/", async (req, res) => {
-  const hashedPwd = await bcrypt.hash(req.body.password, 10);
-  const data = {
-    id: req.body.id,
-    email: req.body.email,
-    password: hashedPwd,
-    role: req.body.role,
-  };
-  const sql =
-    "INSERT INTO UserData (id, email, password, role) VALUES (?,?,?,?)";
-  const params = [data.id, data.email, data.password, data.role];
-  await db.run(sql, params, function (err, result) {
-    if (err) {
-      res.sendStatus(400).json({ error: err.message });
-      return;
+app.post("/user/login", async (req, res) => {
+  const email = req.body.email;
+  const password = req.body.password;
+  if (!email || !password)
+    return res
+      .status(400)
+      .json({ message: "Username and password are required" });
+  db.get(
+    `SELECT * FROM UserData WHERE email = "${email}"`,
+    async (err, result) => {
+      if (err) {
+        res.status(400).json({ error: err.message });
+        return;
+      }
+      if (result) {
+        const validPass = await bcrypt.compare(password, result.password);
+        const payload = {
+          id: result.id,
+          email: result.email,
+          role: result.role,
+        };
+        if (validPass) {
+          const accessToken = jwt.sign(
+            { username: result.email, role: result.role },
+            process.env.ACCESS_TOKEN_SECRET,
+            { expiresIn: "10m" }
+          );
+          const refreshToken = jwt.sign(
+            { email: result.email },
+            process.env.REFRESH_TOKEN_SECRET,
+            { expiresIn: "1d" }
+          );
+          res.cookie("jwt", refreshToken, {
+            httpOnly: true,
+            sameSite: "None",
+            secure: true,
+            maxAge: 24 * 60 * 60 * 1000,
+          });
+          res.json({ accessToken });
+        } else {
+          res.status(406).json({
+            message: "Invalid credentials",
+          });
+        }
+      }
     }
-    res.json({
-      message: "success",
-      data: data,
-    });
-  });
+  );
+});
+
+app.post("/user/refresh", (req, res) => {
+  if (req.cookies?.jwt) {
+    const refreshToken = req.cookies.jwt;
+    jwt.verify(
+      refreshToken,
+      process.env.REFRESH_TOKEN_SECRET,
+      (err, decoded) => {
+        if (err) {
+          return res.status(406).json({ message: "Unauthorized" });
+        } else {
+          const accessToken = jwt.sign(
+            {
+              username: decoded.email,
+              role: decoded.role,
+            },
+            process.env.ACCESS_TOKEN_SECRET,
+            {
+              expiresIn: "10m",
+            }
+          );
+          return res.json({ accessToken });
+        }
+      }
+    );
+  } else {
+    return res.status(406).json({ message: "Unauthorized" });
+  }
 });
 
 //Get all products endpoint
