@@ -22,7 +22,6 @@ let db = new sqlite3.Database(DBSOURCE, (err) => {
         password VARCHAR(50),
         role VARCHAR(11),
         storeId INT,
-        token VARCHAR(170)
      )`,
       (err) => {
         if (err) {
@@ -31,15 +30,14 @@ let db = new sqlite3.Database(DBSOURCE, (err) => {
         } else {
           // Table just created, creating some rows
           const insert =
-            "INSERT INTO UserData (id, email, password, role, storeId, token) VALUES (?,?,?,?,?,?)";
+            "INSERT INTO UserData (id, email, password, role, storeId) VALUES (?,?,?,?,?)";
           users.map((newUser) => {
             db.run(insert, [
               newUser.id,
               newUser.email,
               newUser.password,
               newUser.role,
-              newUser.uniqueStoreId,
-              newUser.token,
+              newUser.storeId,
             ]);
           });
           console.log(`${users.length} Users created`);
