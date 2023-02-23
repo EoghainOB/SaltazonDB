@@ -271,6 +271,34 @@ app.post("/api/product/", async (req, res, next) => {
   }
 });
 
+app.patch("/api/product/:id", (req, res, next) => {
+  const data = {
+    quantity: req.body.quantity,
+  };
+  db.run(
+    `UPDATE ProductData SET quantity = quantity + COALESCE(?, 0) WHERE id = ?`,
+    [data.quantity, req.params.id],
+    function (err, result) {
+      if (err) {
+        res.status(400).json({ error: res.message });
+        return;
+      }
+      res.json(result);
+    }
+  );
+});
+
+app.delete("/api/product/:id", (req, res, next) => {
+  const id = req.params.id;
+  db.run(`DELETE FROM ProductData WHERE id = ?`, [id], function (err, result) {
+    if (err) {
+      res.status(400).json({ error: err.message });
+      return;
+    }
+    res.json({ message: "success", changes: this.changes });
+  });
+});
+
 //Store endpoints
 
 app.get("/api/store", (req, res, next) => {
@@ -301,6 +329,25 @@ app.get("/api/store/:id", (req, res, next) => {
       data: row,
     });
   });
+});
+
+app.post("/api/store/", async (req, res, next) => {
+  try {
+    const data = {
+      name: req.body.name,
+    };
+    const sql = "INSERT INTO StoreData (name) VALUES (?)";
+    const params = [data.name];
+    await db.run(sql, params, (err, result) => {
+      if (err) {
+        res.status(400).json({ error: err.message });
+        return;
+      }
+      res.json(result);
+    });
+  } catch (err) {
+    res.status(400).json({ error: err.message });
+  }
 });
 
 // Default response for any other request
