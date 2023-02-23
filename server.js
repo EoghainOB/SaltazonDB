@@ -156,12 +156,7 @@ app.post("/user/login", async (req, res, next) => {
             process.env.REFRESH_TOKEN_SECRET,
             { expiresIn: "1d" }
           );
-          res.cookie("jwt", refreshToken, {
-            httpOnly: true,
-            sameSite: "None",
-            secure: true,
-            maxAge: 24 * 60 * 60 * 1000,
-          });
+          sessionStorage.setItem("refreshToken", refreshToken);
           res.json({ accessToken });
         } else {
           res.status(406).json({
@@ -174,8 +169,8 @@ app.post("/user/login", async (req, res, next) => {
 });
 
 app.post("/user/refresh", (req, res, next) => {
-  if (req.cookies?.jwt) {
-    const refreshToken = req.cookies.jwt;
+  const refreshToken = sessionStorage.getItem("refreshToken");
+  if (refreshToken) {
     jwt.verify(
       refreshToken,
       process.env.REFRESH_TOKEN_SECRET,
@@ -335,9 +330,10 @@ app.post("/api/store/", async (req, res, next) => {
   try {
     const data = {
       name: req.body.name,
+      uniqueStoreId: req.body.uniqueStoreId,
     };
-    const sql = "INSERT INTO StoreData (name) VALUES (?)";
-    const params = [data.name];
+    const sql = "INSERT INTO StoreData (name, uniqueStoreId) VALUES (?,?)";
+    const params = [data.name, data.uniqueStoreId];
     await db.run(sql, params, (err, result) => {
       if (err) {
         res.status(400).json({ error: err.message });
