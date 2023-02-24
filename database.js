@@ -17,12 +17,13 @@ let db = new sqlite3.Database(DBSOURCE, (err) => {
     const users = GetUsersAsJson();
     db.run(
       `create table UserData (
-        id INT,
-        email VARCHAR(50),
-        password VARCHAR(50),
-        role VARCHAR(11),
-        storeId INT,
-     )`,
+    id INT,
+    email VARCHAR(50),
+    password VARCHAR(50),
+    role VARCHAR(11),
+    storeId INT,
+    RefreshTokens VARCHAR(100)
+  )`,
       (err) => {
         if (err) {
           // Table already created
@@ -30,14 +31,16 @@ let db = new sqlite3.Database(DBSOURCE, (err) => {
         } else {
           // Table just created, creating some rows
           const insert =
-            "INSERT INTO UserData (id, email, password, role, storeId) VALUES (?,?,?,?,?)";
+            "INSERT INTO UserData (id, email, password, role, storeId, RefreshTokens) VALUES (?,?,?,?,?,?)";
           users.map((newUser) => {
+            const refreshTokensJson = JSON.stringify(newUser.RefreshTokens);
             db.run(insert, [
               newUser.id,
               newUser.email,
               newUser.password,
               newUser.role,
               newUser.storeId,
+              refreshTokensJson,
             ]);
           });
           console.log(`${users.length} Users created`);

@@ -156,7 +156,12 @@ app.post("/user/login", async (req, res, next) => {
             process.env.REFRESH_TOKEN_SECRET,
             { expiresIn: "1d" }
           );
-          sessionStorage.setItem("refreshToken", refreshToken);
+          const refreshTokenJson = JSON.stringify(refreshToken);
+
+          const sql = "UPDATE UserData SET refreshToken = ? WHERE email = ?";
+          const params = [refreshTokenJson, email];
+          await db.run(sql, params);
+
           res.json({ accessToken });
         } else {
           res.status(406).json({
@@ -169,8 +174,17 @@ app.post("/user/login", async (req, res, next) => {
 });
 
 app.post("/user/refresh", (req, res, next) => {
-  const refreshToken = sessionStorage.getItem("refreshToken");
-  if (refreshToken) {
+  const email = decoded.email;
+  const sql = "SELECT refreshToken FROM UserData WHERE email = ?";
+  const params = [email];
+  db.get(sql, params, (err, result) => {
+    if (err || !result) {
+      return res.status(406).json({ message: "Unauthorized" });
+    }
+
+    const refreshTokenJson = result.refreshToken;
+    const refreshToken = JSON.parse(refreshTokenJson);
+
     jwt.verify(
       refreshToken,
       process.env.REFRESH_TOKEN_SECRET,
@@ -193,9 +207,12 @@ app.post("/user/refresh", (req, res, next) => {
         }
       }
     );
-  } else {
-    return res.status(406).json({ message: "Unauthorized" });
-  }
+  });
+});
+
+app.post("/user/logout", (req, res) => {
+  res.clearCookie("token");
+  res.sendStatus(200);
 });
 
 //Product endpoints
