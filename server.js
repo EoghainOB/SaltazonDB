@@ -218,8 +218,16 @@ app.post("/user/logout", (req, res) => {
 //Product endpoints
 
 app.get("/api/product", (req, res, next) => {
-  const sql = "select * from ProductData";
-  const params = [];
+  let sql = "SELECT * FROM ProductData WHERE 1=1";
+  let params = [];
+  if (req.query.category && req.query.category !== "all") {
+    sql += " AND category = ?";
+    params.push(req.query.category);
+  }
+  if (req.query.q) {
+    sql += " AND lower(title) LIKE ?";
+    params.push(`%${req.query.q.toLowerCase()}%`);
+  }
   db.all(sql, params, (err, rows) => {
     if (err) {
       res.status(400).json({ error: err.message });
