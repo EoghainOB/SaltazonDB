@@ -52,6 +52,21 @@ app.get("/api/user/:id", (req, res, next) => {
   });
 });
 
+app.get("/api/user/email/:email", (req, res, next) => {
+  const sql = "select * from UserData where email = ?";
+  const params = [req.params.email];
+  db.get(sql, params, (err, row) => {
+    if (err) {
+      res.status(400).json({ error: err.message });
+      return;
+    }
+    res.json({
+      message: "success",
+      data: row,
+    });
+  });
+});
+
 app.patch("/api/user/:id", (req, res, next) => {
   const data = {
     email: req.body.email,
@@ -62,8 +77,8 @@ app.patch("/api/user/:id", (req, res, next) => {
   db.run(
     `UPDATE UserData set 
            email = COALESCE(?,email), 
-           password = COALESCE(?,password)
-           role = COALESCE(?,role)
+           password = COALESCE(?,password),
+           role = COALESCE(?,role),
            storeId = COALESCE(?,storeId)
            WHERE id = ?`,
     [data.email, data.password, data.role, data.storeId, req.params.id],
@@ -74,7 +89,7 @@ app.patch("/api/user/:id", (req, res, next) => {
       }
       res.json({
         message: "success",
-        data: data,
+        data: result,
         changes: this.changes,
       });
     }
@@ -355,11 +370,11 @@ app.post("/api/store/", async (req, res, next) => {
   try {
     const data = {
       name: req.body.name,
-      uniqueStoreId: req.body.uniqueStoreId,
+      uniqueStoreId: req.body.id,
     };
     const sql = "INSERT INTO StoreData (name, uniqueStoreId) VALUES (?,?)";
     const params = [data.name, data.uniqueStoreId];
-    await db.run(sql, params, (err, result) => {
+    await db.run(sql, params, function (err, result) {
       if (err) {
         res.status(400).json({ error: err.message });
         return;
@@ -369,6 +384,17 @@ app.post("/api/store/", async (req, res, next) => {
   } catch (err) {
     res.status(400).json({ error: err.message });
   }
+});
+
+app.delete("/api/store/:id", (req, res, next) => {
+  const id = req.params.id;
+  db.run(`DELETE FROM StoreData WHERE id = ?`, [id], function (err, result) {
+    if (err) {
+      res.status(400).json({ error: err.message });
+      return;
+    }
+    res.json({ message: "success", changes: this.changes });
+  });
 });
 
 // Default response for any other request

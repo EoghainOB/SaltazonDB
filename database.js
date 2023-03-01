@@ -49,22 +49,22 @@ let db = new sqlite3.Database(DBSOURCE, (err) => {
     );
     const stores = GetStoresAsJson();
     db.run(
-      `create table StoreData (
-                name VARCHAR(50),
-                uniqueStoreId INT
-              )`,
+      `CREATE TABLE StoreData (
+        uniqueStoreId INT
+        name VARCHAR(50),
+      )`,
       (err) => {
         if (err) {
           // Table already created
-          console.log("Already Store-table there");
+          console.log("Store table already exists");
         } else {
-          // Table just created, creating some rows
+          // Table just created, inserting some rows
           const insert =
             "INSERT INTO StoreData (name, uniqueStoreId) VALUES (?,?)";
-          stores.map((newStore) => {
-            db.run(insert, [newStore.name, newStore.uniqueStoreId]);
+          stores.forEach((store) => {
+            db.run(insert, [store.name, store.uniqueStoreId]);
           });
-          console.log(`${stores.length} Stores created`);
+          console.log(`${stores.length} stores created`);
         }
       }
     );
