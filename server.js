@@ -388,13 +388,17 @@ app.post("/api/store/", async (req, res, next) => {
 
 app.delete("/api/store/:id", (req, res, next) => {
   const id = req.params.id;
-  db.run(`DELETE FROM StoreData WHERE id = ?`, [id], function (err, result) {
-    if (err) {
-      res.status(400).json({ error: err.message });
-      return;
+  db.run(
+    `DELETE FROM StoreData WHERE uniqueStoreId = ?`,
+    [id],
+    function (err, result) {
+      if (err) {
+        res.status(400).json({ error: err.message });
+        return;
+      }
+      res.json({ message: "success", changes: this.changes });
     }
-    res.json({ message: "success", changes: this.changes });
-  });
+  );
 });
 
 // Default response for any other request
