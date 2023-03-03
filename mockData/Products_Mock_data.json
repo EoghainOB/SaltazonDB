@@ -5,7 +5,7 @@
     "description": "Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",
     "imageUrl": "http://dummyimage.com/162x100.png/ff4444/ffffff",
     "storeId": 7,
-    "price": "$3.56",
+    "price": "3.56",
     "quantity": 33,
     "category": "Movies"
   },
@@ -15,7 +15,7 @@
     "description": "Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.",
     "imageUrl": "http://dummyimage.com/133x100.png/ff4444/ffffff",
     "storeId": 1,
-    "price": "$3.90",
+    "price": "3.90",
     "quantity": 48,
     "category": "Shoes"
   },
@@ -25,7 +25,7 @@
     "description": "Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
     "imageUrl": "http://dummyimage.com/204x100.png/5fa2dd/ffffff",
     "storeId": 5,
-    "price": "$5.75",
+    "price": "5.75",
     "quantity": 28,
     "category": "Grocery"
   },
@@ -35,7 +35,7 @@
     "description": "Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
     "imageUrl": "http://dummyimage.com/105x100.png/5fa2dd/ffffff",
     "storeId": 3,
-    "price": "$1.01",
+    "price": "1.01",
     "quantity": 48,
     "category": "Toys"
   },
@@ -45,7 +45,7 @@
     "description": "Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
     "imageUrl": "http://dummyimage.com/196x100.png/dddddd/000000",
     "storeId": 2,
-    "price": "$0.92",
+    "price": "0.92",
     "quantity": 26,
     "category": "Movies"
   },
@@ -55,7 +55,7 @@
     "description": "Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
     "imageUrl": "http://dummyimage.com/172x100.png/cc0000/ffffff",
     "storeId": 2,
-    "price": "$9.57",
+    "price": "9.57",
     "quantity": 33,
     "category": "Sports"
   },
@@ -65,7 +65,7 @@
     "description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.",
     "imageUrl": "http://dummyimage.com/184x100.png/cc0000/ffffff",
     "storeId": 10,
-    "price": "$2.81",
+    "price": "2.81",
     "quantity": 48,
     "category": "Beauty"
   },
@@ -75,7 +75,7 @@
     "description": "Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
     "imageUrl": "http://dummyimage.com/150x100.png/cc0000/ffffff",
     "storeId": 5,
-    "price": "$0.39",
+    "price": "0.39",
     "quantity": 49,
     "category": "Baby"
   },
@@ -85,7 +85,7 @@
     "description": "Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",
     "imageUrl": "http://dummyimage.com/155x100.png/ff4444/ffffff",
     "storeId": 6,
-    "price": "$4.32",
+    "price": "4.32",
     "quantity": 5,
     "category": "Clothing"
   },
@@ -95,7 +95,7 @@
     "description": "Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.",
     "imageUrl": "http://dummyimage.com/246x100.png/dddddd/000000",
     "storeId": 6,
-    "price": "$8.57",
+    "price": "8.57",
     "quantity": 48,
     "category": "Garden"
   },
@@ -105,7 +105,7 @@
     "description": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
     "imageUrl": "http://dummyimage.com/206x100.png/ff4444/ffffff",
     "storeId": 4,
-    "price": "$4.55",
+    "price": "4.55",
     "quantity": 46,
     "category": "Games"
   },
@@ -115,7 +115,7 @@
     "description": "Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",
     "imageUrl": "http://dummyimage.com/178x100.png/ff4444/ffffff",
     "storeId": 8,
-    "price": "$4.45",
+    "price": "4.45",
     "quantity": 49,
     "category": "Industrial"
   },
@@ -125,7 +125,7 @@
     "description": "Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.",
     "imageUrl": "http://dummyimage.com/166x100.png/5fa2dd/ffffff",
     "storeId": 1,
-    "price": "$5.52",
+    "price": "5.52",
     "quantity": 12,
     "category": "Grocery"
   },
@@ -135,7 +135,7 @@
     "description": "Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.",
     "imageUrl": "http://dummyimage.com/136x100.png/dddddd/000000",
     "storeId": 7,
-    "price": "$0.30",
+    "price": "0.30",
     "quantity": 13,
     "category": "Outdoors"
   },
@@ -145,7 +145,7 @@
     "description": "Cras pellentesque volutpat dui.",
     "imageUrl": "http://dummyimage.com/187x100.png/ff4444/ffffff",
     "storeId": 10,
-    "price": "$9.48",
+    "price": "9.48",
     "quantity": 43,
     "category": "Beauty"
   },
@@ -155,7 +155,7 @@
     "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.",
     "imageUrl": "http://dummyimage.com/124x100.png/5fa2dd/ffffff",
     "storeId": 3,
-    "price": "$8.75",
+    "price": "8.75",
     "quantity": 12,
     "category": "Books"
   },
@@ -165,7 +165,7 @@
     "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.",
     "imageUrl": "http://dummyimage.com/178x100.png/ff4444/ffffff",
     "storeId": 2,
-    "price": "$5.09",
+    "price": "5.09",
     "quantity": 50,
     "category": "Computers"
   },
@@ -175,7 +175,7 @@
     "description": "Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.",
     "imageUrl": "http://dummyimage.com/235x100.png/dddddd/000000",
     "storeId": 8,
-    "price": "$1.36",
+    "price": "1.36",
     "quantity": 20,
     "category": "Kids"
   },
@@ -185,7 +185,7 @@
     "description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.",
     "imageUrl": "http://dummyimage.com/117x100.png/5fa2dd/ffffff",
     "storeId": 7,
-    "price": "$9.35",
+    "price": "9.35",
     "quantity": 7,
     "category": "Books"
   },
@@ -195,7 +195,7 @@
     "description": "Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.",
     "imageUrl": "http://dummyimage.com/181x100.png/ff4444/ffffff",
     "storeId": 1,
-    "price": "$0.46",
+    "price": "0.46",
     "quantity": 41,
     "category": "Home"
   },
@@ -205,7 +205,7 @@
     "description": "Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
     "imageUrl": "http://dummyimage.com/159x100.png/5fa2dd/ffffff",
     "storeId": 9,
-    "price": "$1.64",
+    "price": "1.64",
     "quantity": 49,
     "category": "Automotive"
   },
@@ -215,7 +215,7 @@
     "description": "Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.",
     "imageUrl": "http://dummyimage.com/142x100.png/5fa2dd/ffffff",
     "storeId": 3,
-    "price": "$7.25",
+    "price": "7.25",
     "quantity": 8,
     "category": "Jewelry"
   },
@@ -225,7 +225,7 @@
     "description": "Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",
     "imageUrl": "http://dummyimage.com/116x100.png/dddddd/000000",
     "storeId": 3,
-    "price": "$3.05",
+    "price": "3.05",
     "quantity": 2,
     "category": "Industrial"
   },
@@ -235,7 +235,7 @@
     "description": "Integer ac neque.",
     "imageUrl": "http://dummyimage.com/188x100.png/5fa2dd/ffffff",
     "storeId": 6,
-    "price": "$3.34",
+    "price": "3.34",
     "quantity": 5,
     "category": "Sports"
   },
@@ -245,7 +245,7 @@
     "description": "In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
     "imageUrl": "http://dummyimage.com/184x100.png/ff4444/ffffff",
     "storeId": 6,
-    "price": "$6.78",
+    "price": "6.78",
     "quantity": 11,
     "category": "Automotive"
   },
@@ -255,7 +255,7 @@
     "description": "Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.",
     "imageUrl": "http://dummyimage.com/205x100.png/5fa2dd/ffffff",
     "storeId": 5,
-    "price": "$6.17",
+    "price": "6.17",
     "quantity": 14,
     "category": "Movies"
   },
@@ -265,7 +265,7 @@
     "description": "Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",
     "imageUrl": "http://dummyimage.com/242x100.png/cc0000/ffffff",
     "storeId": 6,
-    "price": "$5.40",
+    "price": "5.40",
     "quantity": 23,
     "category": "Baby"
   },
@@ -275,7 +275,7 @@
     "description": "Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
     "imageUrl": "http://dummyimage.com/221x100.png/cc0000/ffffff",
     "storeId": 1,
-    "price": "$6.27",
+    "price": "6.27",
     "quantity": 2,
     "category": "Clothing"
   },
@@ -285,7 +285,7 @@
     "description": "Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.",
     "imageUrl": "http://dummyimage.com/120x100.png/cc0000/ffffff",
     "storeId": 4,
-    "price": "$2.31",
+    "price": "2.31",
     "quantity": 47,
     "category": "Shoes"
   },
@@ -295,7 +295,7 @@
     "description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
     "imageUrl": "http://dummyimage.com/129x100.png/cc0000/ffffff",
     "storeId": 1,
-    "price": "$1.71",
+    "price": "1.71",
     "quantity": 12,
     "category": "Sports"
   },
@@ -305,7 +305,7 @@
     "description": "In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
     "imageUrl": "http://dummyimage.com/124x100.png/dddddd/000000",
     "storeId": 6,
-    "price": "$4.04",
+    "price": "4.04",
     "quantity": 41,
     "category": "Shoes"
   },
@@ -315,7 +315,7 @@
     "description": "Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
     "imageUrl": "http://dummyimage.com/101x100.png/ff4444/ffffff",
     "storeId": 10,
-    "price": "$9.79",
+    "price": "9.79",
     "quantity": 49,
     "category": "Beauty"
   },
@@ -325,7 +325,7 @@
     "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",
     "imageUrl": "http://dummyimage.com/128x100.png/cc0000/ffffff",
     "storeId": 8,
-    "price": "$6.68",
+    "price": "6.68",
     "quantity": 26,
     "category": "Health"
   },
@@ -335,7 +335,7 @@
     "description": "Proin at turpis a pede posuere nonummy.",
     "imageUrl": "http://dummyimage.com/246x100.png/5fa2dd/ffffff",
     "storeId": 10,
-    "price": "$6.83",
+    "price": "6.83",
     "quantity": 48,
     "category": "Kids"
   },
@@ -345,7 +345,7 @@
     "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.",
     "imageUrl": "http://dummyimage.com/249x100.png/cc0000/ffffff",
     "storeId": 3,
-    "price": "$8.27",
+    "price": "8.27",
     "quantity": 4,
     "category": "Toys"
   },
@@ -355,7 +355,7 @@
     "description": "Maecenas pulvinar lobortis est. Phasellus sit amet erat.",
     "imageUrl": "http://dummyimage.com/232x100.png/cc0000/ffffff",
     "storeId": 4,
-    "price": "$4.41",
+    "price": "4.41",
     "quantity": 1,
     "category": "Clothing"
   },
@@ -365,7 +365,7 @@
     "description": "Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
     "imageUrl": "http://dummyimage.com/198x100.png/ff4444/ffffff",
     "storeId": 5,
-    "price": "$7.98",
+    "price": "7.98",
     "quantity": 43,
     "category": "Kids"
   },
@@ -375,7 +375,7 @@
     "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.",
     "imageUrl": "http://dummyimage.com/179x100.png/5fa2dd/ffffff",
     "storeId": 9,
-    "price": "$1.90",
+    "price": "1.90",
     "quantity": 49,
     "category": "Books"
   },
@@ -385,7 +385,7 @@
     "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
     "imageUrl": "http://dummyimage.com/144x100.png/ff4444/ffffff",
     "storeId": 9,
-    "price": "$4.70",
+    "price": "4.70",
     "quantity": 35,
     "category": "Health"
   },
@@ -395,7 +395,7 @@
     "description": "Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",
     "imageUrl": "http://dummyimage.com/207x100.png/5fa2dd/ffffff",
     "storeId": 10,
-    "price": "$5.35",
+    "price": "5.35",
     "quantity": 26,
     "category": "Sports"
   },
@@ -405,7 +405,7 @@
     "description": "Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",
     "imageUrl": "http://dummyimage.com/131x100.png/ff4444/ffffff",
     "storeId": 10,
-    "price": "$4.96",
+    "price": "4.96",
     "quantity": 45,
     "category": "Outdoors"
   },
@@ -415,7 +415,7 @@
     "description": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",
     "imageUrl": "http://dummyimage.com/170x100.png/dddddd/000000",
     "storeId": 10,
-    "price": "$5.08",
+    "price": "5.08",
     "quantity": 39,
     "category": "Music"
   },
@@ -425,7 +425,7 @@
     "description": "Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
     "imageUrl": "http://dummyimage.com/189x100.png/dddddd/000000",
     "storeId": 7,
-    "price": "$6.23",
+    "price": "6.23",
     "quantity": 38,
     "category": "Industrial"
   },
@@ -435,7 +435,7 @@
     "description": "Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.",
     "imageUrl": "http://dummyimage.com/165x100.png/dddddd/000000",
     "storeId": 9,
-    "price": "$5.48",
+    "price": "5.48",
     "quantity": 13,
     "category": "Tools"
   },
@@ -445,7 +445,7 @@
     "description": "Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.",
     "imageUrl": "http://dummyimage.com/184x100.png/cc0000/ffffff",
     "storeId": 7,
-    "price": "$6.99",
+    "price": "6.99",
     "quantity": 27,
     "category": "Jewelry"
   },
@@ -455,7 +455,7 @@
     "description": "Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",
     "imageUrl": "http://dummyimage.com/132x100.png/dddddd/000000",
     "storeId": 9,
-    "price": "$9.82",
+    "price": "9.82",
     "quantity": 46,
     "category": "Sports"
   },
@@ -465,7 +465,7 @@
     "description": "Donec ut mauris eget massa tempor convallis.",
     "imageUrl": "http://dummyimage.com/146x100.png/dddddd/000000",
     "storeId": 5,
-    "price": "$0.93",
+    "price": "0.93",
     "quantity": 3,
     "category": "Books"
   },
@@ -475,7 +475,7 @@
     "description": "Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
     "imageUrl": "http://dummyimage.com/154x100.png/cc0000/ffffff",
     "storeId": 1,
-    "price": "$0.98",
+    "price": "0.98",
     "quantity": 6,
     "category": "Movies"
   },
@@ -485,7 +485,7 @@
     "description": "Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.",
     "imageUrl": "http://dummyimage.com/165x100.png/5fa2dd/ffffff",
     "storeId": 6,
-    "price": "$4.23",
+    "price": "4.23",
     "quantity": 50,
     "category": "Industrial"
   },
@@ -495,7 +495,7 @@
     "description": "Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.",
     "imageUrl": "http://dummyimage.com/177x100.png/5fa2dd/ffffff",
     "storeId": 1,
-    "price": "$4.04",
+    "price": "4.04",
     "quantity": 50,
     "category": "Jewelry"
   },
@@ -505,7 +505,7 @@
     "description": "Curabitur convallis.",
     "imageUrl": "http://dummyimage.com/115x100.png/5fa2dd/ffffff",
     "storeId": 3,
-    "price": "$2.26",
+    "price": "2.26",
     "quantity": 28,
     "category": "Music"
   },
@@ -515,7 +515,7 @@
     "description": "Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
     "imageUrl": "http://dummyimage.com/249x100.png/cc0000/ffffff",
     "storeId": 4,
-    "price": "$8.47",
+    "price": "8.47",
     "quantity": 34,
     "category": "Beauty"
   },
@@ -525,7 +525,7 @@
     "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.",
     "imageUrl": "http://dummyimage.com/193x100.png/5fa2dd/ffffff",
     "storeId": 3,
-    "price": "$9.19",
+    "price": "9.19",
     "quantity": 1,
     "category": "Shoes"
   },
@@ -535,7 +535,7 @@
     "description": "Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.",
     "imageUrl": "http://dummyimage.com/149x100.png/ff4444/ffffff",
     "storeId": 5,
-    "price": "$4.29",
+    "price": "4.29",
     "quantity": 42,
     "category": "Clothing"
   },
@@ -545,7 +545,7 @@
     "description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",
     "imageUrl": "http://dummyimage.com/228x100.png/cc0000/ffffff",
     "storeId": 2,
-    "price": "$1.71",
+    "price": "1.71",
     "quantity": 22,
     "category": "Toys"
   },
@@ -555,7 +555,7 @@
     "description": "Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.",
     "imageUrl": "http://dummyimage.com/249x100.png/dddddd/000000",
     "storeId": 5,
-    "price": "$6.94",
+    "price": "6.94",
     "quantity": 5,
     "category": "Movies"
   },
@@ -565,7 +565,7 @@
     "description": "Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",
     "imageUrl": "http://dummyimage.com/168x100.png/cc0000/ffffff",
     "storeId": 9,
-    "price": "$4.59",
+    "price": "4.59",
     "quantity": 47,
     "category": "Computers"
   },
@@ -575,7 +575,7 @@
     "description": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.",
     "imageUrl": "http://dummyimage.com/155x100.png/5fa2dd/ffffff",
     "storeId": 10,
-    "price": "$9.78",
+    "price": "9.78",
     "quantity": 40,
     "category": "Outdoors"
   },
@@ -585,7 +585,7 @@
     "description": "Praesent blandit. Nam nulla.",
     "imageUrl": "http://dummyimage.com/104x100.png/ff4444/ffffff",
     "storeId": 9,
-    "price": "$0.94",
+    "price": "0.94",
     "quantity": 48,
     "category": "Computers"
   },
@@ -595,7 +595,7 @@
     "description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.",
     "imageUrl": "http://dummyimage.com/198x100.png/ff4444/ffffff",
     "storeId": 3,
-    "price": "$1.27",
+    "price": "1.27",
     "quantity": 33,
     "category": "Baby"
   },
@@ -605,7 +605,7 @@
     "description": "Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",
     "imageUrl": "http://dummyimage.com/104x100.png/dddddd/000000",
     "storeId": 6,
-    "price": "$0.50",
+    "price": "0.50",
     "quantity": 29,
     "category": "Toys"
   },
@@ -615,7 +615,7 @@
     "description": "Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
     "imageUrl": "http://dummyimage.com/132x100.png/5fa2dd/ffffff",
     "storeId": 2,
-    "price": "$8.49",
+    "price": "8.49",
     "quantity": 25,
     "category": "Health"
   },
@@ -625,7 +625,7 @@
     "description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
     "imageUrl": "http://dummyimage.com/154x100.png/dddddd/000000",
     "storeId": 8,
-    "price": "$6.64",
+    "price": "6.64",
     "quantity": 23,
     "category": "Grocery"
   },
@@ -635,7 +635,7 @@
     "description": "Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
     "imageUrl": "http://dummyimage.com/138x100.png/dddddd/000000",
     "storeId": 1,
-    "price": "$6.06",
+    "price": "6.06",
     "quantity": 8,
     "category": "Electronics"
   },
@@ -645,7 +645,7 @@
     "description": "Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.",
     "imageUrl": "http://dummyimage.com/208x100.png/ff4444/ffffff",
     "storeId": 6,
-    "price": "$1.55",
+    "price": "1.55",
     "quantity": 32,
     "category": "Clothing"
   },
@@ -655,7 +655,7 @@
     "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.",
     "imageUrl": "http://dummyimage.com/185x100.png/cc0000/ffffff",
     "storeId": 4,
-    "price": "$7.33",
+    "price": "7.33",
     "quantity": 30,
     "category": "Games"
   },
@@ -665,7 +665,7 @@
     "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
     "imageUrl": "http://dummyimage.com/156x100.png/cc0000/ffffff",
     "storeId": 5,
-    "price": "$5.88",
+    "price": "5.88",
     "quantity": 13,
     "category": "Automotive"
   },
@@ -675,7 +675,7 @@
     "description": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
     "imageUrl": "http://dummyimage.com/151x100.png/ff4444/ffffff",
     "storeId": 7,
-    "price": "$0.19",
+    "price": "0.19",
     "quantity": 24,
     "category": "Computers"
   },
@@ -685,7 +685,7 @@
     "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.",
     "imageUrl": "http://dummyimage.com/188x100.png/cc0000/ffffff",
     "storeId": 8,
-    "price": "$2.42",
+    "price": "2.42",
     "quantity": 45,
     "category": "Health"
   },
@@ -695,7 +695,7 @@
     "description": "Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
     "imageUrl": "http://dummyimage.com/190x100.png/5fa2dd/ffffff",
     "storeId": 2,
-    "price": "$6.30",
+    "price": "6.30",
     "quantity": 28,
     "category": "Health"
   },
@@ -705,7 +705,7 @@
     "description": "Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.",
     "imageUrl": "http://dummyimage.com/109x100.png/5fa2dd/ffffff",
     "storeId": 3,
-    "price": "$0.86",
+    "price": "0.86",
     "quantity": 49,
     "category": "Jewelry"
   },
@@ -715,7 +715,7 @@
     "description": "Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
     "imageUrl": "http://dummyimage.com/240x100.png/dddddd/000000",
     "storeId": 3,
-    "price": "$6.03",
+    "price": "6.03",
     "quantity": 8,
     "category": "Outdoors"
   },
@@ -725,7 +725,7 @@
     "description": "Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
     "imageUrl": "http://dummyimage.com/114x100.png/dddddd/000000",
     "storeId": 5,
-    "price": "$9.58",
+    "price": "9.58",
     "quantity": 9,
     "category": "Kids"
   },
@@ -735,7 +735,7 @@
     "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.",
     "imageUrl": "http://dummyimage.com/117x100.png/5fa2dd/ffffff",
     "storeId": 2,
-    "price": "$0.61",
+    "price": "0.61",
     "quantity": 28,
     "category": "Home"
   },
@@ -745,7 +745,7 @@
     "description": "Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.",
     "imageUrl": "http://dummyimage.com/225x100.png/dddddd/000000",
     "storeId": 1,
-    "price": "$0.17",
+    "price": "0.17",
     "quantity": 28,
     "category": "Health"
   },
@@ -755,7 +755,7 @@
     "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.",
     "imageUrl": "http://dummyimage.com/203x100.png/5fa2dd/ffffff",
     "storeId": 6,
-    "price": "$4.73",
+    "price": "4.73",
     "quantity": 2,
     "category": "Tools"
   },
@@ -765,7 +765,7 @@
     "description": "Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.",
     "imageUrl": "http://dummyimage.com/108x100.png/dddddd/000000",
     "storeId": 10,
-    "price": "$8.58",
+    "price": "8.58",
     "quantity": 19,
     "category": "Computers"
   },
@@ -775,7 +775,7 @@
     "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.",
     "imageUrl": "http://dummyimage.com/189x100.png/5fa2dd/ffffff",
     "storeId": 10,
-    "price": "$2.93",
+    "price": "2.93",
     "quantity": 34,
     "category": "Books"
   },
@@ -785,7 +785,7 @@
     "description": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.",
     "imageUrl": "http://dummyimage.com/220x100.png/ff4444/ffffff",
     "storeId": 10,
-    "price": "$3.19",
+    "price": "3.19",
     "quantity": 36,
     "category": "Grocery"
   },
@@ -795,7 +795,7 @@
     "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.",
     "imageUrl": "http://dummyimage.com/182x100.png/dddddd/000000",
     "storeId": 10,
-    "price": "$4.72",
+    "price": "4.72",
     "quantity": 39,
     "category": "Tools"
   },
@@ -805,7 +805,7 @@
     "description": "In hac habitasse platea dictumst.",
     "imageUrl": "http://dummyimage.com/184x100.png/5fa2dd/ffffff",
     "storeId": 1,
-    "price": "$3.82",
+    "price": "3.82",
     "quantity": 15,
     "category": "Computers"
   },
@@ -815,7 +815,7 @@
     "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.",
     "imageUrl": "http://dummyimage.com/191x100.png/5fa2dd/ffffff",
     "storeId": 6,
-    "price": "$1.79",
+    "price": "1.79",
     "quantity": 16,
     "category": "Games"
   },
@@ -825,7 +825,7 @@
     "description": "Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
     "imageUrl": "http://dummyimage.com/240x100.png/dddddd/000000",
     "storeId": 2,
-    "price": "$9.31",
+    "price": "9.31",
     "quantity": 7,
     "category": "Games"
   },
@@ -835,7 +835,7 @@
     "description": "Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.",
     "imageUrl": "http://dummyimage.com/217x100.png/dddddd/000000",
     "storeId": 4,
-    "price": "$8.92",
+    "price": "8.92",
     "quantity": 30,
     "category": "Automotive"
   },
@@ -845,7 +845,7 @@
     "description": "Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.",
     "imageUrl": "http://dummyimage.com/191x100.png/5fa2dd/ffffff",
     "storeId": 4,
-    "price": "$2.83",
+    "price": "2.83",
     "quantity": 9,
     "category": "Sports"
   },
@@ -855,7 +855,7 @@
     "description": "Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.",
     "imageUrl": "http://dummyimage.com/123x100.png/ff4444/ffffff",
     "storeId": 9,
-    "price": "$0.79",
+    "price": "0.79",
     "quantity": 38,
     "category": "Shoes"
   },
@@ -865,7 +865,7 @@
     "description": "Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",
     "imageUrl": "http://dummyimage.com/120x100.png/cc0000/ffffff",
     "storeId": 7,
-    "price": "$3.53",
+    "price": "3.53",
     "quantity": 29,
     "category": "Games"
   },
@@ -875,7 +875,7 @@
     "description": "Nunc rhoncus dui vel sem. Sed sagittis.",
     "imageUrl": "http://dummyimage.com/214x100.png/5fa2dd/ffffff",
     "storeId": 10,
-    "price": "$0.89",
+    "price": "0.89",
     "quantity": 22,
     "category": "Games"
   },
@@ -885,7 +885,7 @@
     "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.",
     "imageUrl": "http://dummyimage.com/150x100.png/ff4444/ffffff",
     "storeId": 9,
-    "price": "$0.97",
+    "price": "0.97",
     "quantity": 50,
     "category": "Games"
   },
@@ -895,7 +895,7 @@
     "description": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
     "imageUrl": "http://dummyimage.com/213x100.png/5fa2dd/ffffff",
     "storeId": 5,
-    "price": "$5.87",
+    "price": "5.87",
     "quantity": 8,
     "category": "Music"
   },
@@ -905,7 +905,7 @@
     "description": "Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.",
     "imageUrl": "http://dummyimage.com/116x100.png/ff4444/ffffff",
     "storeId": 10,
-    "price": "$2.73",
+    "price": "2.73",
     "quantity": 16,
     "category": "Grocery"
   },
@@ -915,7 +915,7 @@
     "description": "Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.",
     "imageUrl": "http://dummyimage.com/174x100.png/cc0000/ffffff",
     "storeId": 7,
-    "price": "$6.54",
+    "price": "6.54",
     "quantity": 26,
     "category": "Grocery"
   },
@@ -925,7 +925,7 @@
     "description": "Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",
     "imageUrl": "http://dummyimage.com/246x100.png/cc0000/ffffff",
     "storeId": 5,
-    "price": "$5.30",
+    "price": "5.30",
     "quantity": 49,
     "category": "Garden"
   },
@@ -935,7 +935,7 @@
     "description": "Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",
     "imageUrl": "http://dummyimage.com/246x100.png/ff4444/ffffff",
     "storeId": 4,
-    "price": "$8.95",
+    "price": "8.95",
     "quantity": 5,
     "category": "Home"
   },
@@ -945,7 +945,7 @@
     "description": "Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",
     "imageUrl": "http://dummyimage.com/169x100.png/ff4444/ffffff",
     "storeId": 3,
-    "price": "$2.03",
+    "price": "2.03",
     "quantity": 18,
     "category": "Home"
   },
@@ -955,7 +955,7 @@
     "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.",
     "imageUrl": "http://dummyimage.com/152x100.png/dddddd/000000",
     "storeId": 9,
-    "price": "$5.84",
+    "price": "5.84",
     "quantity": 31,
     "category": "Kids"
   },
@@ -965,7 +965,7 @@
     "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
     "imageUrl": "http://dummyimage.com/168x100.png/5fa2dd/ffffff",
     "storeId": 1,
-    "price": "$0.26",
+    "price": "0.26",
     "quantity": 24,
     "category": "Industrial"
   },
@@ -975,7 +975,7 @@
     "description": "Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.",
     "imageUrl": "http://dummyimage.com/113x100.png/5fa2dd/ffffff",
     "storeId": 7,
-    "price": "$0.93",
+    "price": "0.93",
     "quantity": 26,
     "category": "Clothing"
   },
@@ -985,7 +985,7 @@
     "description": "Donec ut dolor.",
     "imageUrl": "http://dummyimage.com/237x100.png/cc0000/ffffff",
     "storeId": 5,
-    "price": "$5.86",
+    "price": "5.86",
     "quantity": 16,
     "category": "Outdoors"
   },
@@ -995,7 +995,7 @@
     "description": "Integer ac leo. Pellentesque ultrices mattis odio.",
     "imageUrl": "http://dummyimage.com/205x100.png/5fa2dd/ffffff",
     "storeId": 7,
-    "price": "$2.11",
+    "price": "2.11",
     "quantity": 43,
     "category": "Industrial"
   },
@@ -1005,7 +1005,7 @@
     "description": "Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.",
     "imageUrl": "http://dummyimage.com/124x100.png/dddddd/000000",
     "storeId": 1,
-    "price": "$1.48",
+    "price": "1.48",
     "quantity": 7,
     "category": "Grocery"
   },
@@ -1015,7 +1015,7 @@
     "description": "Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",
     "imageUrl": "http://dummyimage.com/199x100.png/dddddd/000000",
     "storeId": 8,
-    "price": "$5.45",
+    "price": "5.45",
     "quantity": 20,
     "category": "Shoes"
   },
@@ -1025,7 +1025,7 @@
     "description": "Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",
     "imageUrl": "http://dummyimage.com/130x100.png/dddddd/000000",
     "storeId": 7,
-    "price": "$2.90",
+    "price": "2.90",
     "quantity": 50,
     "category": "Health"
   },
@@ -1035,7 +1035,7 @@
     "description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
     "imageUrl": "http://dummyimage.com/125x100.png/cc0000/ffffff",
     "storeId": 9,
-    "price": "$3.49",
+    "price": "3.49",
     "quantity": 18,
     "category": "Toys"
   },
@@ -1045,7 +1045,7 @@
     "description": "Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
     "imageUrl": "http://dummyimage.com/146x100.png/5fa2dd/ffffff",
     "storeId": 8,
-    "price": "$5.37",
+    "price": "5.37",
     "quantity": 9,
     "category": "Industrial"
   },
@@ -1055,7 +1055,7 @@
     "description": "In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.",
     "imageUrl": "http://dummyimage.com/181x100.png/5fa2dd/ffffff",
     "storeId": 6,
-    "price": "$9.49",
+    "price": "9.49",
     "quantity": 24,
     "category": "Computers"
   },
@@ -1065,7 +1065,7 @@
     "description": "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.",
     "imageUrl": "http://dummyimage.com/208x100.png/cc0000/ffffff",
     "storeId": 6,
-    "price": "$5.94",
+    "price": "5.94",
     "quantity": 30,
     "category": "Clothing"
   },
@@ -1075,7 +1075,7 @@
     "description": "Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.",
     "imageUrl": "http://dummyimage.com/108x100.png/ff4444/ffffff",
     "storeId": 10,
-    "price": "$9.59",
+    "price": "9.59",
     "quantity": 40,
     "category": "Grocery"
   },
@@ -1085,7 +1085,7 @@
     "description": "Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.",
     "imageUrl": "http://dummyimage.com/229x100.png/cc0000/ffffff",
     "storeId": 9,
-    "price": "$6.51",
+    "price": "6.51",
     "quantity": 35,
     "category": "Shoes"
   },
@@ -1095,7 +1095,7 @@
     "description": "Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.",
     "imageUrl": "http://dummyimage.com/181x100.png/cc0000/ffffff",
     "storeId": 3,
-    "price": "$0.50",
+    "price": "0.50",
     "quantity": 18,
     "category": "Baby"
   },
@@ -1105,7 +1105,7 @@
     "description": "Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",
     "imageUrl": "http://dummyimage.com/239x100.png/dddddd/000000",
     "storeId": 4,
-    "price": "$8.50",
+    "price": "8.50",
     "quantity": 45,
     "category": "Garden"
   },
@@ -1115,7 +1115,7 @@
     "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.",
     "imageUrl": "http://dummyimage.com/113x100.png/5fa2dd/ffffff",
     "storeId": 1,
-    "price": "$6.90",
+    "price": "6.90",
     "quantity": 2,
     "category": "Garden"
   },
@@ -1125,7 +1125,7 @@
     "description": "Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.",
     "imageUrl": "http://dummyimage.com/114x100.png/dddddd/000000",
     "storeId": 6,
-    "price": "$2.95",
+    "price": "2.95",
     "quantity": 33,
     "category": "Jewelry"
   },
@@ -1135,7 +1135,7 @@
     "description": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.",
     "imageUrl": "http://dummyimage.com/151x100.png/cc0000/ffffff",
     "storeId": 3,
-    "price": "$7.66",
+    "price": "7.66",
     "quantity": 42,
     "category": "Home"
   },
@@ -1145,7 +1145,7 @@
     "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
     "imageUrl": "http://dummyimage.com/233x100.png/dddddd/000000",
     "storeId": 9,
-    "price": "$2.00",
+    "price": "2.00",
     "quantity": 43,
     "category": "Health"
   },
@@ -1155,7 +1155,7 @@
     "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.",
     "imageUrl": "http://dummyimage.com/118x100.png/5fa2dd/ffffff",
     "storeId": 1,
-    "price": "$9.58",
+    "price": "9.58",
     "quantity": 41,
     "category": "Kids"
   },
@@ -1165,7 +1165,7 @@
     "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
     "imageUrl": "http://dummyimage.com/166x100.png/ff4444/ffffff",
     "storeId": 10,
-    "price": "$0.71",
+    "price": "0.71",
     "quantity": 37,
     "category": "Garden"
   },
@@ -1175,7 +1175,7 @@
     "description": "In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.",
     "imageUrl": "http://dummyimage.com/114x100.png/5fa2dd/ffffff",
     "storeId": 3,
-    "price": "$1.24",
+    "price": "1.24",
     "quantity": 1,
     "category": "Electronics"
   },
@@ -1185,7 +1185,7 @@
     "description": "Nullam molestie nibh in lectus.",
     "imageUrl": "http://dummyimage.com/156x100.png/ff4444/ffffff",
     "storeId": 7,
-    "price": "$1.51",
+    "price": "1.51",
     "quantity": 40,
     "category": "Computers"
   },
@@ -1195,7 +1195,7 @@
     "description": "Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",
     "imageUrl": "http://dummyimage.com/132x100.png/cc0000/ffffff",
     "storeId": 1,
-    "price": "$3.49",
+    "price": "3.49",
     "quantity": 22,
     "category": "Electronics"
   },
@@ -1205,7 +1205,7 @@
     "description": "In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.",
     "imageUrl": "http://dummyimage.com/244x100.png/5fa2dd/ffffff",
     "storeId": 6,
-    "price": "$2.57",
+    "price": "2.57",
     "quantity": 4,
     "category": "Baby"
   },
@@ -1215,7 +1215,7 @@
     "description": "In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",
     "imageUrl": "http://dummyimage.com/214x100.png/dddddd/000000",
     "storeId": 1,
-    "price": "$9.75",
+    "price": "9.75",
     "quantity": 15,
     "category": "Kids"
   },
@@ -1225,7 +1225,7 @@
     "description": "Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
     "imageUrl": "http://dummyimage.com/134x100.png/cc0000/ffffff",
     "storeId": 6,
-    "price": "$5.04",
+    "price": "5.04",
     "quantity": 23,
     "category": "Electronics"
   },
@@ -1235,7 +1235,7 @@
     "description": "Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.",
     "imageUrl": "http://dummyimage.com/188x100.png/ff4444/ffffff",
     "storeId": 5,
-    "price": "$7.23",
+    "price": "7.23",
     "quantity": 29,
     "category": "Computers"
   },
@@ -1245,7 +1245,7 @@
     "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
     "imageUrl": "http://dummyimage.com/217x100.png/dddddd/000000",
     "storeId": 2,
-    "price": "$0.98",
+    "price": "0.98",
     "quantity": 24,
     "category": "Music"
   },
@@ -1255,7 +1255,7 @@
     "description": "Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.",
     "imageUrl": "http://dummyimage.com/111x100.png/5fa2dd/ffffff",
     "storeId": 2,
-    "price": "$1.27",
+    "price": "1.27",
     "quantity": 40,
     "category": "Baby"
   },
@@ -1265,7 +1265,7 @@
     "description": "Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.",
     "imageUrl": "http://dummyimage.com/102x100.png/ff4444/ffffff",
     "storeId": 7,
-    "price": "$1.91",
+    "price": "1.91",
     "quantity": 21,
     "category": "Home"
   },
@@ -1275,7 +1275,7 @@
     "description": "Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",
     "imageUrl": "http://dummyimage.com/179x100.png/ff4444/ffffff",
     "storeId": 9,
-    "price": "$9.75",
+    "price": "9.75",
     "quantity": 24,
     "category": "Computers"
   },
@@ -1285,7 +1285,7 @@
     "description": "In congue. Etiam justo.",
     "imageUrl": "http://dummyimage.com/247x100.png/cc0000/ffffff",
     "storeId": 3,
-    "price": "$5.78",
+    "price": "5.78",
     "quantity": 11,
     "category": "Computers"
   },
@@ -1295,7 +1295,7 @@
     "description": "Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",
     "imageUrl": "http://dummyimage.com/223x100.png/cc0000/ffffff",
     "storeId": 3,
-    "price": "$2.24",
+    "price": "2.24",
     "quantity": 20,
     "category": "Sports"
   },
@@ -1305,7 +1305,7 @@
     "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",
     "imageUrl": "http://dummyimage.com/102x100.png/dddddd/000000",
     "storeId": 2,
-    "price": "$1.35",
+    "price": "1.35",
     "quantity": 47,
     "category": "Music"
   },
@@ -1315,7 +1315,7 @@
     "description": "Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
     "imageUrl": "http://dummyimage.com/106x100.png/cc0000/ffffff",
     "storeId": 6,
-    "price": "$9.45",
+    "price": "9.45",
     "quantity": 2,
     "category": "Grocery"
   },
@@ -1325,7 +1325,7 @@
     "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
     "imageUrl": "http://dummyimage.com/211x100.png/ff4444/ffffff",
     "storeId": 9,
-    "price": "$5.44",
+    "price": "5.44",
     "quantity": 6,
     "category": "Books"
   },
@@ -1335,7 +1335,7 @@
     "description": "Morbi a ipsum.",
     "imageUrl": "http://dummyimage.com/157x100.png/dddddd/000000",
     "storeId": 5,
-    "price": "$3.10",
+    "price": "3.10",
     "quantity": 10,
     "category": "Baby"
   },
@@ -1345,7 +1345,7 @@
     "description": "Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.",
     "imageUrl": "http://dummyimage.com/199x100.png/ff4444/ffffff",
     "storeId": 2,
-    "price": "$1.36",
+    "price": "1.36",
     "quantity": 49,
     "category": "Music"
   },
@@ -1355,7 +1355,7 @@
     "description": "Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.",
     "imageUrl": "http://dummyimage.com/150x100.png/dddddd/000000",
     "storeId": 9,
-    "price": "$3.51",
+    "price": "3.51",
     "quantity": 31,
     "category": "Garden"
   },
@@ -1365,7 +1365,7 @@
     "description": "Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.",
     "imageUrl": "http://dummyimage.com/218x100.png/5fa2dd/ffffff",
     "storeId": 7,
-    "price": "$2.24",
+    "price": "2.24",
     "quantity": 21,
     "category": "Garden"
   },
@@ -1375,7 +1375,7 @@
     "description": "Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
     "imageUrl": "http://dummyimage.com/122x100.png/cc0000/ffffff",
     "storeId": 3,
-    "price": "$5.92",
+    "price": "5.92",
     "quantity": 19,
     "category": "Shoes"
   },
@@ -1385,7 +1385,7 @@
     "description": "Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
     "imageUrl": "http://dummyimage.com/233x100.png/dddddd/000000",
     "storeId": 9,
-    "price": "$4.08",
+    "price": "4.08",
     "quantity": 37,
     "category": "Movies"
   },
@@ -1395,7 +1395,7 @@
     "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.",
     "imageUrl": "http://dummyimage.com/131x100.png/dddddd/000000",
     "storeId": 4,
-    "price": "$7.06",
+    "price": "7.06",
     "quantity": 27,
     "category": "Garden"
   },
@@ -1405,7 +1405,7 @@
     "description": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.",
     "imageUrl": "http://dummyimage.com/206x100.png/cc0000/ffffff",
     "storeId": 2,
-    "price": "$6.55",
+    "price": "6.55",
     "quantity": 45,
     "category": "Books"
   },
@@ -1415,7 +1415,7 @@
     "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.",
     "imageUrl": "http://dummyimage.com/202x100.png/dddddd/000000",
     "storeId": 8,
-    "price": "$9.32",
+    "price": "9.32",
     "quantity": 29,
     "category": "Kids"
   },
@@ -1425,7 +1425,7 @@
     "description": "Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.",
     "imageUrl": "http://dummyimage.com/219x100.png/dddddd/000000",
     "storeId": 6,
-    "price": "$7.74",
+    "price": "7.74",
     "quantity": 13,
     "category": "Sports"
   },
@@ -1435,7 +1435,7 @@
     "description": "Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.",
     "imageUrl": "http://dummyimage.com/118x100.png/dddddd/000000",
     "storeId": 5,
-    "price": "$7.97",
+    "price": "7.97",
     "quantity": 5,
     "category": "Tools"
   },
@@ -1445,7 +1445,7 @@
     "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
     "imageUrl": "http://dummyimage.com/204x100.png/5fa2dd/ffffff",
     "storeId": 4,
-    "price": "$8.05",
+    "price": "8.05",
     "quantity": 50,
     "category": "Tools"
   },
@@ -1455,7 +1455,7 @@
     "description": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",
     "imageUrl": "http://dummyimage.com/191x100.png/ff4444/ffffff",
     "storeId": 4,
-    "price": "$2.72",
+    "price": "2.72",
     "quantity": 42,
     "category": "Jewelry"
   },
@@ -1465,7 +1465,7 @@
     "description": "Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
     "imageUrl": "http://dummyimage.com/170x100.png/cc0000/ffffff",
     "storeId": 3,
-    "price": "$4.57",
+    "price": "4.57",
     "quantity": 17,
     "category": "Health"
   },
@@ -1475,7 +1475,7 @@
     "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.",
     "imageUrl": "http://dummyimage.com/105x100.png/cc0000/ffffff",
     "storeId": 9,
-    "price": "$0.37",
+    "price": "0.37",
     "quantity": 47,
     "category": "Baby"
   },
@@ -1485,7 +1485,7 @@
     "description": "Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
     "imageUrl": "http://dummyimage.com/244x100.png/5fa2dd/ffffff",
     "storeId": 3,
-    "price": "$4.12",
+    "price": "4.12",
     "quantity": 31,
     "category": "Computers"
   },
@@ -1495,7 +1495,7 @@
     "description": "Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",
     "imageUrl": "http://dummyimage.com/119x100.png/dddddd/000000",
     "storeId": 4,
-    "price": "$1.77",
+    "price": "1.77",
     "quantity": 50,
     "category": "Electronics"
   },
@@ -1505,7 +1505,7 @@
     "description": "Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
     "imageUrl": "http://dummyimage.com/214x100.png/ff4444/ffffff",
     "storeId": 4,
-    "price": "$8.35",
+    "price": "8.35",
     "quantity": 27,
     "category": "Tools"
   },
@@ -1515,7 +1515,7 @@
     "description": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
     "imageUrl": "http://dummyimage.com/162x100.png/ff4444/ffffff",
     "storeId": 8,
-    "price": "$7.15",
+    "price": "7.15",
     "quantity": 20,
     "category": "Music"
   },
@@ -1525,7 +1525,7 @@
     "description": "Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.",
     "imageUrl": "http://dummyimage.com/180x100.png/cc0000/ffffff",
     "storeId": 7,
-    "price": "$6.94",
+    "price": "6.94",
     "quantity": 6,
     "category": "Automotive"
   },
@@ -1535,7 +1535,7 @@
     "description": "Ut at dolor quis odio consequat varius.",
     "imageUrl": "http://dummyimage.com/102x100.png/cc0000/ffffff",
     "storeId": 10,
-    "price": "$8.46",
+    "price": "8.46",
     "quantity": 47,
     "category": "Grocery"
   },
@@ -1545,7 +1545,7 @@
     "description": "Nunc rhoncus dui vel sem.",
     "imageUrl": "http://dummyimage.com/113x100.png/cc0000/ffffff",
     "storeId": 7,
-    "price": "$1.51",
+    "price": "1.51",
     "quantity": 16,
     "category": "Movies"
   },
@@ -1555,7 +1555,7 @@
     "description": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
     "imageUrl": "http://dummyimage.com/158x100.png/ff4444/ffffff",
     "storeId": 10,
-    "price": "$8.51",
+    "price": "8.51",
     "quantity": 33,
     "category": "Movies"
   },
@@ -1565,7 +1565,7 @@
     "description": "Nunc nisl.",
     "imageUrl": "http://dummyimage.com/231x100.png/cc0000/ffffff",
     "storeId": 4,
-    "price": "$4.89",
+    "price": "4.89",
     "quantity": 37,
     "category": "Computers"
   },
@@ -1575,7 +1575,7 @@
     "description": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.",
     "imageUrl": "http://dummyimage.com/242x100.png/dddddd/000000",
     "storeId": 3,
-    "price": "$1.29",
+    "price": "1.29",
     "quantity": 22,
     "category": "Baby"
   },
@@ -1585,7 +1585,7 @@
     "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.",
     "imageUrl": "http://dummyimage.com/152x100.png/ff4444/ffffff",
     "storeId": 8,
-    "price": "$6.79",
+    "price": "6.79",
     "quantity": 15,
     "category": "Baby"
   },
@@ -1595,7 +1595,7 @@
     "description": "Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.",
     "imageUrl": "http://dummyimage.com/228x100.png/dddddd/000000",
     "storeId": 8,
-    "price": "$0.21",
+    "price": "0.21",
     "quantity": 47,
     "category": "Electronics"
   },
@@ -1605,7 +1605,7 @@
     "description": "Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",
     "imageUrl": "http://dummyimage.com/159x100.png/cc0000/ffffff",
     "storeId": 6,
-    "price": "$5.93",
+    "price": "5.93",
     "quantity": 1,
     "category": "Games"
   },
@@ -1615,7 +1615,7 @@
     "description": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.",
     "imageUrl": "http://dummyimage.com/190x100.png/dddddd/000000",
     "storeId": 1,
-    "price": "$5.91",
+    "price": "5.91",
     "quantity": 3,
     "category": "Games"
   },
@@ -1625,7 +1625,7 @@
     "description": "Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
     "imageUrl": "http://dummyimage.com/108x100.png/cc0000/ffffff",
     "storeId": 9,
-    "price": "$9.93",
+    "price": "9.93",
     "quantity": 16,
     "category": "Music"
   },
@@ -1635,7 +1635,7 @@
     "description": "Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
     "imageUrl": "http://dummyimage.com/217x100.png/dddddd/000000",
     "storeId": 8,
-    "price": "$7.08",
+    "price": "7.08",
     "quantity": 38,
     "category": "Industrial"
   },
@@ -1645,7 +1645,7 @@
     "description": "Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
     "imageUrl": "http://dummyimage.com/236x100.png/cc0000/ffffff",
     "storeId": 6,
-    "price": "$2.99",
+    "price": "2.99",
     "quantity": 25,
     "category": "Kids"
   },
@@ -1655,7 +1655,7 @@
     "description": "Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.",
     "imageUrl": "http://dummyimage.com/229x100.png/5fa2dd/ffffff",
     "storeId": 6,
-    "price": "$7.98",
+    "price": "7.98",
     "quantity": 29,
     "category": "Clothing"
   },
@@ -1665,7 +1665,7 @@
     "description": "Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.",
     "imageUrl": "http://dummyimage.com/106x100.png/ff4444/ffffff",
     "storeId": 5,
-    "price": "$6.23",
+    "price": "6.23",
     "quantity": 18,
     "category": "Books"
   },
@@ -1675,7 +1675,7 @@
     "description": "Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",
     "imageUrl": "http://dummyimage.com/223x100.png/ff4444/ffffff",
     "storeId": 8,
-    "price": "$8.71",
+    "price": "8.71",
     "quantity": 42,
     "category": "Grocery"
   },
@@ -1685,7 +1685,7 @@
     "description": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",
     "imageUrl": "http://dummyimage.com/165x100.png/cc0000/ffffff",
     "storeId": 6,
-    "price": "$4.93",
+    "price": "4.93",
     "quantity": 40,
     "category": "Sports"
   },
@@ -1695,7 +1695,7 @@
     "description": "Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.",
     "imageUrl": "http://dummyimage.com/248x100.png/cc0000/ffffff",
     "storeId": 10,
-    "price": "$0.81",
+    "price": "0.81",
     "quantity": 30,
     "category": "Music"
   },
@@ -1705,7 +1705,7 @@
     "description": "Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.",
     "imageUrl": "http://dummyimage.com/120x100.png/5fa2dd/ffffff",
     "storeId": 1,
-    "price": "$6.46",
+    "price": "6.46",
     "quantity": 10,
     "category": "Industrial"
   },
@@ -1715,7 +1715,7 @@
     "description": "Morbi vel lectus in quam fringilla rhoncus.",
     "imageUrl": "http://dummyimage.com/110x100.png/cc0000/ffffff",
     "storeId": 4,
-    "price": "$6.88",
+    "price": "6.88",
     "quantity": 30,
     "category": "Toys"
   },
@@ -1725,7 +1725,7 @@
     "description": "Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.",
     "imageUrl": "http://dummyimage.com/204x100.png/dddddd/000000",
     "storeId": 2,
-    "price": "$2.13",
+    "price": "2.13",
     "quantity": 40,
     "category": "Health"
   },
@@ -1735,7 +1735,7 @@
     "description": "Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",
     "imageUrl": "http://dummyimage.com/144x100.png/5fa2dd/ffffff",
     "storeId": 8,
-    "price": "$2.89",
+    "price": "2.89",
     "quantity": 12,
     "category": "Computers"
   },
@@ -1745,7 +1745,7 @@
     "description": "Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.",
     "imageUrl": "http://dummyimage.com/244x100.png/cc0000/ffffff",
     "storeId": 8,
-    "price": "$4.39",
+    "price": "4.39",
     "quantity": 4,
     "category": "Books"
   },
@@ -1755,7 +1755,7 @@
     "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",
     "imageUrl": "http://dummyimage.com/217x100.png/cc0000/ffffff",
     "storeId": 6,
-    "price": "$1.64",
+    "price": "1.64",
     "quantity": 12,
     "category": "Beauty"
   },
@@ -1765,7 +1765,7 @@
     "description": "Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.",
     "imageUrl": "http://dummyimage.com/195x100.png/5fa2dd/ffffff",
     "storeId": 3,
-    "price": "$3.94",
+    "price": "3.94",
     "quantity": 35,
     "category": "Electronics"
   },
@@ -1775,7 +1775,7 @@
     "description": "Proin eu mi. Nulla ac enim.",
     "imageUrl": "http://dummyimage.com/140x100.png/cc0000/ffffff",
     "storeId": 6,
-    "price": "$4.67",
+    "price": "4.67",
     "quantity": 18,
     "category": "Music"
   },
@@ -1785,7 +1785,7 @@
     "description": "Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.",
     "imageUrl": "http://dummyimage.com/118x100.png/cc0000/ffffff",
     "storeId": 8,
-    "price": "$3.01",
+    "price": "3.01",
     "quantity": 23,
     "category": "Music"
   },
@@ -1795,7 +1795,7 @@
     "description": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
     "imageUrl": "http://dummyimage.com/118x100.png/5fa2dd/ffffff",
     "storeId": 7,
-    "price": "$2.44",
+    "price": "2.44",
     "quantity": 22,
     "category": "Kids"
   },
@@ -1805,7 +1805,7 @@
     "description": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst.",
     "imageUrl": "http://dummyimage.com/100x100.png/dddddd/000000",
     "storeId": 8,
-    "price": "$9.41",
+    "price": "9.41",
     "quantity": 21,
     "category": "Outdoors"
   },
@@ -1815,7 +1815,7 @@
     "description": "Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
     "imageUrl": "http://dummyimage.com/193x100.png/ff4444/ffffff",
     "storeId": 6,
-    "price": "$6.24",
+    "price": "6.24",
     "quantity": 38,
     "category": "Computers"
   },
@@ -1825,7 +1825,7 @@
     "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.",
     "imageUrl": "http://dummyimage.com/146x100.png/dddddd/000000",
     "storeId": 4,
-    "price": "$3.98",
+    "price": "3.98",
     "quantity": 3,
     "category": "Garden"
   },
@@ -1835,7 +1835,7 @@
     "description": "Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
     "imageUrl": "http://dummyimage.com/201x100.png/ff4444/ffffff",
     "storeId": 4,
-    "price": "$7.40",
+    "price": "7.40",
     "quantity": 2,
     "category": "Movies"
   },
@@ -1845,7 +1845,7 @@
     "description": "Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.",
     "imageUrl": "http://dummyimage.com/247x100.png/cc0000/ffffff",
     "storeId": 4,
-    "price": "$4.36",
+    "price": "4.36",
     "quantity": 40,
     "category": "Books"
   },
@@ -1855,7 +1855,7 @@
     "description": "Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.",
     "imageUrl": "http://dummyimage.com/154x100.png/dddddd/000000",
     "storeId": 7,
-    "price": "$5.79",
+    "price": "5.79",
     "quantity": 40,
     "category": "Games"
   },
@@ -1865,7 +1865,7 @@
     "description": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.",
     "imageUrl": "http://dummyimage.com/116x100.png/dddddd/000000",
     "storeId": 4,
-    "price": "$5.58",
+    "price": "5.58",
     "quantity": 25,
     "category": "Beauty"
   },
@@ -1875,7 +1875,7 @@
     "description": "Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",
     "imageUrl": "http://dummyimage.com/158x100.png/cc0000/ffffff",
     "storeId": 2,
-    "price": "$0.79",
+    "price": "0.79",
     "quantity": 9,
     "category": "Games"
   },
@@ -1885,7 +1885,7 @@
     "description": "Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.",
     "imageUrl": "http://dummyimage.com/100x100.png/ff4444/ffffff",
     "storeId": 9,
-    "price": "$1.17",
+    "price": "1.17",
     "quantity": 21,
     "category": "Automotive"
   },
@@ -1895,7 +1895,7 @@
     "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.",
     "imageUrl": "http://dummyimage.com/246x100.png/cc0000/ffffff",
     "storeId": 4,
-    "price": "$5.69",
+    "price": "5.69",
     "quantity": 17,
     "category": "Computers"
   },
@@ -1905,7 +1905,7 @@
     "description": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
     "imageUrl": "http://dummyimage.com/230x100.png/ff4444/ffffff",
     "storeId": 7,
-    "price": "$7.53",
+    "price": "7.53",
     "quantity": 47,
     "category": "Toys"
   },
@@ -1915,7 +1915,7 @@
     "description": "Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",
     "imageUrl": "http://dummyimage.com/116x100.png/ff4444/ffffff",
     "storeId": 8,
-    "price": "$4.85",
+    "price": "4.85",
     "quantity": 1,
     "category": "Electronics"
   },
@@ -1925,7 +1925,7 @@
     "description": "Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.",
     "imageUrl": "http://dummyimage.com/210x100.png/ff4444/ffffff",
     "storeId": 6,
-    "price": "$2.87",
+    "price": "2.87",
     "quantity": 29,
     "category": "Books"
   },
@@ -1935,7 +1935,7 @@
     "description": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo.",
     "imageUrl": "http://dummyimage.com/230x100.png/cc0000/ffffff",
     "storeId": 1,
-    "price": "$4.45",
+    "price": "4.45",
     "quantity": 47,
     "category": "Books"
   },
@@ -1945,7 +1945,7 @@
     "description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.",
     "imageUrl": "http://dummyimage.com/100x100.png/5fa2dd/ffffff",
     "storeId": 10,
-    "price": "$7.82",
+    "price": "7.82",
     "quantity": 10,
     "category": "Automotive"
   },
@@ -1955,7 +1955,7 @@
     "description": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
     "imageUrl": "http://dummyimage.com/207x100.png/dddddd/000000",
     "storeId": 3,
-    "price": "$5.85",
+    "price": "5.85",
     "quantity": 44,
     "category": "Clothing"
   },
@@ -1965,7 +1965,7 @@
     "description": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.",
     "imageUrl": "http://dummyimage.com/172x100.png/cc0000/ffffff",
     "storeId": 8,
-    "price": "$6.53",
+    "price": "6.53",
     "quantity": 4,
     "category": "Shoes"
   },
@@ -1975,7 +1975,7 @@
     "description": "Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",
     "imageUrl": "http://dummyimage.com/113x100.png/ff4444/ffffff",
     "storeId": 8,
-    "price": "$9.80",
+    "price": "9.80",
     "quantity": 34,
     "category": "Sports"
   },
@@ -1985,7 +1985,7 @@
     "description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
     "imageUrl": "http://dummyimage.com/201x100.png/5fa2dd/ffffff",
     "storeId": 1,
-    "price": "$5.84",
+    "price": "5.84",
     "quantity": 34,
     "category": "Beauty"
   },
@@ -1995,7 +1995,7 @@
     "description": "Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.",
     "imageUrl": "http://dummyimage.com/152x100.png/5fa2dd/ffffff",
     "storeId": 10,
-    "price": "$8.63",
+    "price": "8.63",
     "quantity": 14,
     "category": "Kids"
   }

@@ -17,12 +17,11 @@ let db = new sqlite3.Database(DBSOURCE, (err) => {
     const users = GetUsersAsJson();
     db.run(
       `create table UserData (
-    id INT,
-    email VARCHAR(50),
-    password VARCHAR(50),
-    role VARCHAR(11),
-    storeId INT,
-    RefreshTokens VARCHAR(100)
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        email VARCHAR(50),
+        password VARCHAR(50),
+        role VARCHAR(11),
+        storeId INT
   )`,
       (err) => {
         if (err) {
@@ -31,16 +30,13 @@ let db = new sqlite3.Database(DBSOURCE, (err) => {
         } else {
           // Table just created, creating some rows
           const insert =
-            "INSERT INTO UserData (id, email, password, role, storeId, RefreshTokens) VALUES (?,?,?,?,?,?)";
+            "INSERT INTO UserData (email, password, role, storeId) VALUES (?,?,?,?)";
           users.map((newUser) => {
-            const refreshTokensJson = JSON.stringify(newUser.RefreshTokens);
             db.run(insert, [
-              newUser.id,
               newUser.email,
               newUser.password,
               newUser.role,
               newUser.storeId,
-              refreshTokensJson,
             ]);
           });
           console.log(`${users.length} Users created`);
@@ -50,8 +46,8 @@ let db = new sqlite3.Database(DBSOURCE, (err) => {
     const stores = GetStoresAsJson();
     db.run(
       `CREATE TABLE StoreData (
-        uniqueStoreId INT
-        name VARCHAR(50),
+        uniqueStoreId INTEGER PRIMARY KEY AUTOINCREMENT,
+        name VARCHAR(50)
       )`,
       (err) => {
         if (err) {
@@ -71,7 +67,7 @@ let db = new sqlite3.Database(DBSOURCE, (err) => {
     const products = GetProductsAsJson();
     db.run(
       `create table ProductData (
-                    id INT, 
+                    id INTEGER PRIMARY KEY AUTOINCREMENT, 
                     title VARCHAR(50), 
                     description TEXT, 
                     imageUrl VARCHAR(50),
@@ -86,10 +82,9 @@ let db = new sqlite3.Database(DBSOURCE, (err) => {
         } else {
           // Table just created, creating some rows
           const insert =
-            "INSERT INTO ProductData (id, title, description, imageUrl, storeId, price, quantity, category) VALUES (?,?,?,?,?,?,?,?)";
+            "INSERT INTO ProductData (title, description, imageUrl, storeId, price, quantity, category) VALUES (?,?,?,?,?,?,?)";
           products.map((product) => {
             db.run(insert, [
-              product.id,
               product.title,
               product.description,
               product.imageUrl,

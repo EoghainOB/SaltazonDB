@@ -116,14 +116,12 @@ app.post("/user/register", async (req, res, next) => {
   try {
     const hash = await bcrypt.hash(req.body.password, 10);
     const data = {
-      id: req.body.id,
       email: req.body.email,
       password: hash,
       role: req.body.role,
     };
-    const sql =
-      "INSERT INTO UserData (id, email, password, role) VALUES (?,?,?,?)";
-    const params = [data.id, data.email, data.password, data.role];
+    const sql = "INSERT INTO UserData (email, password, role) VALUES (?,?,?)";
+    const params = [data.email, data.password, data.role];
     await db.run(sql, params, (err, result) => {
       if (err) {
         res.status(400).json({ error: err.message });
@@ -225,10 +223,6 @@ app.get("/refresh_token", (req, res, next) => {
   );
 });
 
-app.post("/user/logout", (req, res) => {
-  res.clearCookie("token").redirect("/login");
-});
-
 //Product endpoints
 
 app.get("/api/product", (req, res, next) => {
@@ -272,7 +266,6 @@ app.get("/api/product/:id", (req, res, next) => {
 app.post("/api/product/", async (req, res, next) => {
   try {
     const data = {
-      id: req.body.id,
       storeId: req.body.storeId,
       category: req.body.category,
       title: req.body.title,
@@ -282,9 +275,8 @@ app.post("/api/product/", async (req, res, next) => {
       imageUrl: req.body.imageUrl,
     };
     const sql =
-      "INSERT INTO ProductData (id, storeId, category, title, description, price, quantity, imageUrl) VALUES (?,?,?,?,?,?,?,?)";
+      "INSERT INTO ProductData ( storeId, category, title, description, price, quantity, imageUrl) VALUES (?,?,?,?,?,?,?)";
     const params = [
-      data.id,
       data.storeId,
       data.category,
       data.title,
@@ -369,10 +361,9 @@ app.post("/api/store/", async (req, res, next) => {
   try {
     const data = {
       name: req.body.name,
-      uniqueStoreId: req.body.id,
     };
-    const sql = "INSERT INTO StoreData (name, uniqueStoreId) VALUES (?,?)";
-    const params = [data.name, data.uniqueStoreId];
+    const sql = "INSERT INTO StoreData (name) VALUES (?)";
+    const params = [data.name];
     await db.run(sql, params, function (err, result) {
       if (err) {
         res.status(400).json({ error: err.message });
