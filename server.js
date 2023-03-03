@@ -136,60 +136,6 @@ app.post("/user/register", async (req, res, next) => {
   }
 });
 
-// app.post("/user/login", async (req, res, next) => {
-//   const email = req.body.email;
-//   const password = req.body.password;
-//   if (!email || !password)
-//     return res
-//       .status(400)
-//       .json({ message: "Username and password are required" });
-//   db.get(
-//     `SELECT * FROM UserData WHERE email = "${email}"`,
-//     async (err, result) => {
-//       if (err) {
-//         res.status(400).json({ error: err.message });
-//         return;
-//       }
-//       if (result) {
-//         const validPass = await bcrypt.compare(password, result.password);
-//         const payload = {
-//           id: result.id,
-//           email: result.email,
-//           role: result.role,
-//           storeId: result.storeId,
-//         };
-//         if (validPass) {
-//           const accessToken = jwt.sign(
-//             {
-//               username: result.email,
-//               role: result.role,
-//               storeId: result.storeId,
-//             },
-//             process.env.ACCESS_TOKEN_SECRET,
-//             { expiresIn: "10m" }
-//           );
-//           const refreshToken = jwt.sign(
-//             { email: result.email },
-//             process.env.REFRESH_TOKEN_SECRET,
-//             { expiresIn: "1d" }
-//           );
-//           const refreshTokenJson = JSON.stringify(refreshToken);
-
-//           const sql = "UPDATE UserData SET refreshToken = ? WHERE email = ?";
-//           const params = [refreshTokenJson, email];
-//           await db.run(sql, params);
-
-//           res.json({ accessToken, refreshToken });
-//         } else {
-//           res.status(406).json({
-//             message: "Invalid credentials",
-//           });
-//         }
-//       }
-//     }
-//   );
-// });
-
 app.post("/user/login", async (req, res, next) => {
   const email = req.body.email;
   const password = req.body.password;
