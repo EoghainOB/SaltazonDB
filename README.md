@@ -1,22 +1,17 @@
-# saltazonDatabase
-To get a fully funtioning (faked) database full of Users / Stores / Products- follows these steps;
+# Saltazon Database
 
-```
-npm i && npm run start
-```
+This back end is designed to work with the Saltazon front end listed here https://github.com/EoghainOB/Saltazon-Frontend
 
-You'll now be able to access the different routes using typical REST-conventions
-Feel free to add more routes in the express-server.
+This backed is made using Express and SQlite database. It contains endpoints for user, product and store.
 
-Available Routes right now are;
+### Saltazon Front End
+![SAProductPage](https://user-images.githubusercontent.com/110406695/223061825-c39c29c7-dab0-4619-a594-ee7cd8a44776.jpg)
 
-Get all USERS - http://localhost:8000/api/user/
-Get user by Id - http://localhost:8000/api/user/{someId}
+<i>This project is made using: </i>
 
-Get all products - http://localhost:8000/api/product/
-Get product by Id - http://localhost:8000/api/product/{someId}
-
-Get all stores - http://localhost:8000/api/store/
-Get store by Id - http://localhost:8000/api/store/{someId}
-
-You can also make delete, patch and post requests to the user endpoints, you should be able to add the others yourselves
+<div>
+    <img height=40 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/>
+    <img height=40 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+    <img height=40 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" />
+    
+</div>
